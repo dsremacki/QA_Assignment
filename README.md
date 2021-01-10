@@ -1,7 +1,5 @@
 # QA_Assignment
 
-Cypress automation 
-
 ### Download repository 
 
 Open command line and clone repository:
@@ -16,13 +14,14 @@ Open command line and clone repository:
 
 ### Running test cases
 
-#### Headless running(only this type will create test report, screenshots and video)
+#### Headless test running(only this type will create test report, screenshots and video)
 
 In command line 
 1. `cd QA_Assignment`
 2. `npm run test` 
 
-#### UI running
+#### UI test running
+
 In command line 
 1. `cd QA_Assignment`
 2. `npx cypress open`
