@@ -1,0 +1,8 @@
+{
+    "titleRequired":"Title is required",
+    "resultRequire":"Expected result is required",
+    "stepRequired":"There must be at least one test step",
+    "shortTitle":"Title needs to be between 5 and 255",
+    "shortResult":"Expected results needs to be between 5 and 255"
+    
+}

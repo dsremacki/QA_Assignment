@@ -1,0 +1,3 @@
+ npm run test to start headless test and get report, screenshot, video 
+ 
+ npx cypress run to start controled UI test

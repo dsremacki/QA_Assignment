@@ -1,0 +1,38 @@
+{
+    "firstCase":{    
+        "title": "Log In with empty fields", 
+        "description": "Test login with empty credentials",
+        "expectedResult":"Cant login and error message is shown:Email field is required , Password is required",
+        "step1":"Go to login page",
+        "step2":"Leave email field empty",
+        "step3":"Leave password field empty",
+        "step4": "Click submit button"
+    },
+    "secondCase":{    
+        "title": "Login with invalid credentials - wrong email withhout @ character", 
+        "description": "Test login with invalid credentials - wrong email withhout @ character, data: email:mail, password:123456",
+        "expectedResult":"Cant login and error message is shown:Please include an '@' in the email address. 'a' is missing an '@'.",
+        "step1":"Go to login page",
+        "step2":"Fill email with text: 'mail'",
+        "step3":"Fill password with text: '123456",
+        "step4":"Click submit button"
+    },
+    "thirdCase":{    
+        "title": "Login with invalid short password", 
+        "description": "Test login with invalid short password data: email:mail@mail.com, password: 12345",
+        "expectedResult":"Cant login and error message is shown:Password must be at least 6 characters long",
+        "step1":"Go to login page",
+        "step2":"Fill email with text: 'mail@mail.com'",
+        "step3":"Fill password with text: '12345'",
+        "step4":"Click submit button"
+    },
+    "fourthCase":{    
+        "title": "Login with valid credentials", 
+        "description": "Testing login with valid credentials data: email: dsremacki@yahoo.com, password: Sifra123.",
+        "expectedResult":"Succesfuly login, and redirected to dashboard",
+        "step1":"Go to login page",
+        "step2":"Fill email with text: 'dsremacki@yahoo.com'",
+        "step3":"Fill password with text: 'Sifra123.'",
+        "step4":"Click submit button"        
+    }
+}

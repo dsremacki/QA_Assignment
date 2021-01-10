@@ -1,0 +1,43 @@
+{
+    "one":{
+        "summary":"Api create use case with empty string",
+        "type":"Bug",
+        "severity":"Low",
+        "priority":"Minor",
+        "description":"Test step is mandatory, precondition is to go url:",
+        "steps":["Fill title input field with text: \"Test case with empty string\"", "Fill description with text:\" ASDASDASDADSA\"", "Fill expected_result with text: \"tHIS IS RES\" " , "Fill teststep with one empty string ",  "Submit"]
+    }, 
+    "two":{
+        "summary":"Login with invalid email format",
+        "type":"Improvment",
+        "severity":"Low",
+        "priority":"Minior",
+        "description":"Precondition go to url: We expect Email is invalid');",
+        "steps":["Fill email input field with text: \"mail\"", "Fill password input field with text: \"123456\"", "Pres login button "]
+    },
+    "three":{
+        "summary":"Create use cases ",
+        "type":"Improvment",
+        "severity":"Low",
+        "priority":"Minior",
+        "description":"Precondition go to url: We expect Email is invalid');",
+        "steps":["Fill email input field with text: 'mail'", "Fill password input field with text: '123456", "Pres login button "]
+    },
+    "four":{
+        "summary":"Create use case with empty string",
+        "type":"Bug",
+        "severity":"Low",
+        "priority":"Minor",
+        "description":"Test step is mandatory, precondition is to go url:",
+        "steps":["Fill title input field with text: Test case with empty string", "Fill description with text", "Fill expected_result with text: " , "Fill with one empty string teststep",  "Submit"]
+    },
+
+    "five":{
+        "summary":"Title is required",
+        "type":"Expected result is required",
+        "severity":"There must be at least one test step",
+        "priority":"Title needs to be between 5 and 255",
+        "description":"Expected results needs to be between 5 and 255",
+        "steps":"one"
+    }
+}

@@ -1,0 +1,16 @@
+
+{
+"reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": true
+        }
+    },
+    "defaultCommandTimeout":6000,
+    "waitAfterEachCommand": 2000
+}
